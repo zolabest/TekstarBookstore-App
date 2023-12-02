@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     APP: clients-api
-    ECR_URL: 750796802028.dkr.ecr.us-east-2.amazonaws.com
+    ECR_URL: 385580591472.dkr.ecr.us-east-2.amazonaws.com
     ECR_REPO_NAME: bookstore.clients-api
 
 phases:
