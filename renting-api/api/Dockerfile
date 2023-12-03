@@ -9,4 +9,4 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 COPY . .
-CMD ["bundle", "exec", "rails", "server", "-p", "5004", "-b", "0.0.0.0"]
+CMD ["bundle", "exec", "rails", "server", "-p", "5005", "-b", "0.0.0.0"]
