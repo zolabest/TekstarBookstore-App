@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mariomerco/inventory-api
+  repository: globaltekpro/inventory-api
   tag: latest
   pullPolicy: IfNotPresent
 
