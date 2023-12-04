@@ -10,26 +10,26 @@ ingress:
       alb.ingress.kubernetes.io/load-balancer-attributes: "idle_timeout.timeout_seconds=360"
     path: /
     hosts:
-      - hostname: renting-api.dev.mariomerco.com
+      - hostname: renting-api.dev.globaltekpro.com
         serviceName: renting-api-service
         port: 80
       
-      - hostname: resource-api.dev.mariomerco.com
+      - hostname: resource-api.dev.globaltekpro.com
         serviceName: resource-api-service
         port: 80
       
-      - hostname: inventory-api.dev.mariomerco.com
+      - hostname: inventory-api.dev.globaltekpro.com
         serviceName: inventory-api-service
         port: 80
 
-      - hostname: clients-api.dev.mariomerco.com
+      - hostname: clients-api.dev.globaltekpro.com
         serviceName: clients-api-service
         port: 80
 
-      - hostname: bookstore.dev.mariomerco.com
+      - hostname: bookstore.dev.globaltekpro.com
         serviceName: front-end-service
         port: 80
 
-      - hostname: api.dev.mariomerco.com
+      - hostname: api.dev.globaltekpro.com
         serviceName: front-end-service-proxy
         port: 80
