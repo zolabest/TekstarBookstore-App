@@ -14,7 +14,7 @@
         "DomainName": {
             "Description": "The domain name",
             "Type": "String",
-            "Default": "mariomerco.com"
+            "Default": "globaltekpro.com"
         },
         "DeployHostedZone": {
             "Description": "Define whether deploy the hosted zone or not",
