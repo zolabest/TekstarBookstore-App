@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mariomerco/front-end
+  repository: globaltekpro/front-end
   tag: latest
   pullPolicy: Always
 
@@ -30,8 +30,8 @@ affinity: {}
 
 # REMEMBER TO TEST WHETHER THIS IS REALLY REQUIRED
 api:
-  url: https://api.dev.mariomerco.com/
-  resource_api: https://resource-api.dev.mariomerco.com/
-  inventory_api: https://inventory-api.dev.mariomerco.com/
-  renting_api: https://renting-api.dev.mariomerco.com/
-  clients_api: https://clients-api.dev.mariomerco.com/
+  url: https://api.dev.globaltekpro.com/
+  resource_api: https://resource-api.dev.globaltekpro.com/
+  inventory_api: https://inventory-api.dev.globaltekpro.com/
+  renting_api: https://renting-api.dev.globaltekpro.com/
+  clients_api: https://clients-api.dev.globaltekpro.com/
