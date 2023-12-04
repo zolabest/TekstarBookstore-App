@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: mariomerco/clients-api
+  repository: globaltekpro/clients-api
   tag: latest
   pullPolicy: IfNotPresent
 
